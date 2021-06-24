@@ -191,5 +191,6 @@ Vanuatu
 Vatican City
 Venezuela
 Vietnam
+
 Zambia
 Zimbabwe`.split("\n");
