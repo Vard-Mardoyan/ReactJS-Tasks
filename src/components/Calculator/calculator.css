@@ -1,0 +1,24 @@
+.calcContainer {
+	width: 400px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.inp {
+	padding: 5px;
+}
+.actionBtn {
+	width: 65px;
+	height: 40px;
+	font-size: 12px;
+	border: none;
+	background-color:lightgrey;
+	cursor: pointer;
+}
+.wrapper {
+	width: 370px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
