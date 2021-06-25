@@ -20,6 +20,8 @@ function App() {
 <Dropdown />
 <h1>Museum</h1>
 <Museum />
+<h1>Slider</h1>
+<Slider />
     </div>
   );
 }
