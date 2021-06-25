@@ -54,9 +54,7 @@ export default class SearchDropdown extends React.Component {
 					onChange={this.onTextChanged}
 					placeholder="countries"
 				/>
-        
 				{this.renderSuggestions()}
-
 			</div>
 		);
 	}
