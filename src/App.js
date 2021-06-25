@@ -18,6 +18,8 @@ function App() {
 <Counter />
 <h1>Dropdown</h1>
 <Dropdown />
+<h1>Museum</h1>
+<Museum />
     </div>
   );
 }
