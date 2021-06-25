@@ -1,0 +1,32 @@
+.museumContainer {
+	height: 3600px;
+}
+.dataContainer {
+	width: 100%;
+	max-width: 900px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.dataGrid {
+	width: 100%;
+	max-width: 200px;
+	height: 280px;
+	list-style: none;
+	margin-top: 125px;
+}
+.dataGrid > p {
+	font-size: 10px;
+}
+.img {
+	width: 200px;
+	height: 220px;
+}
+.load_more_btn {
+	width: 100%;
+	padding: 3px 0 0 0;
+	margin-top: 100px;
+	border: none;
+	background: none;
+	cursor: pointer;
+}
