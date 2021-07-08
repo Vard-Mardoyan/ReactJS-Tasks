@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./taginput.css";
 
-export default function Xachapuri() {
+export default function TagInput() {
 	const [tags, setTags] = useState(["please", "do not"]);
 	const addTag = (e) => {
 		if (e.key === "Enter") {
@@ -17,7 +17,6 @@ export default function Xachapuri() {
 	};
 	return (
 		<div>
-			<h1>Tags input with React</h1>
 			<div className="tag-container">
 				{tags.map((tag, index) => {
 					return (

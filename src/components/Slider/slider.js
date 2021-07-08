@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Slider.css";
+import "./slider.css";
 
 export default function Slider(props) {
 	const [hue, setHue] = useState(props.randomHue);
@@ -18,7 +18,6 @@ export default function Slider(props) {
 	return (
 		<>
 			<main className="main-container">
-				<h1>Color Picker</h1>
 				<button className='randomBtn' onClick={() => randomColor()}>Random color</button>
 				<div className="color-container">
 					<section

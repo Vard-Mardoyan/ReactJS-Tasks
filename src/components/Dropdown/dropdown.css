@@ -1,5 +1,4 @@
-.App {
-	margin-top: 70px;
+.input-container{
 	display: flex;
 	flex-direction: column;
 	align-items: center;

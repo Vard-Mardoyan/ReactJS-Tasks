@@ -20,7 +20,6 @@ class Counter extends React.Component {
 	handleMaxVal = (e) => {
 		this.setState({
 			max: e.target.value === "" ? e.target.value : Number(e.target.value),
-			// count: Math.max(this.state.min + this.state.stepBy, this.state.count - this.state.min),
 		});
 	};
 

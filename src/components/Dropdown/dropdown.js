@@ -45,14 +45,13 @@ export default class SearchDropdown extends React.Component {
 	render() {
 		const { text } = this.state;
 		return (
-			<div className="App">
-				<p> Search Bar </p>
+			<div className='input-container'>
 				<input
 					className="input"
 					type="text"
 					value={text}
 					onChange={this.onTextChanged}
-					placeholder="countries"
+					placeholder="search countries"
 				/>
 				{this.renderSuggestions()}
 			</div>
